@@ -18,13 +18,13 @@ export class Child extends Parent {
     this.someArray = [...this.someArray2];
     console.log(this.someArray);
 
-    for (let i = 0; i <= this.someArray.length; i++) {
-      console.log(i);
+    // for (let i = 0; i <= this.someArray.length; i++) {
+    //   console.log(i);
 
-      let temp = this.someArray[i];
-      this.someArray[i] = this.someArray[i + 1];
-      this.someArray[i + 1] = temp;
-    }
+    //   let temp = this.someArray[i];
+    //   this.someArray[i] = this.someArray[i + 1];
+    //   this.someArray[i + 1] = temp;
+    // }
     console.log(this.someArray);
   }
 }
